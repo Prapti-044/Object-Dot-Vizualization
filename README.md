@@ -19,4 +19,22 @@ optional arguments:
                         The graphviz dot output file
   -a ASSEMBLY, --assembly ASSEMBLY
                         The Assembly Code collected from the Method.
+
 ```
+
+
+After running:
+
+
+```bash
+make test.so
+python viz_disassembly.py -o test.dot test.so
+dot -Tpng -o demo.png test.dot
+
+# Or you can only run 
+make
+```
+
+The output will be like below:
+
+![Demo](.github/demo.png)

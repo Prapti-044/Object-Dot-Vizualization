@@ -1,5 +1,18 @@
 # Object-Dot-Vizualization
 
+<!-- badges: start -->
+
+[![License: GPL
+v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+![GitHub code size in
+bytes](https://img.shields.io/github/languages/code-size/Prapti-044/Object-Dot-Vizualization?color=green)
+![GitHub language
+count](https://img.shields.io/github/languages/count/Prapti-044/Object-Dot-Vizualization)
+![GitHub top
+language](https://img.shields.io/github/languages/top/Prapti-044/Object-Dot-Vizualization)
+<!-- badges: end -->
+
+
 ```plain
 Reads an object file, disassembles it and generates a .dot graphviz file for visualization.
 usage: viz_disassemble.py [-h] [-m {objdump,gdb}] [-o OUTPUT] [-a ASSEMBLY]
